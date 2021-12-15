@@ -1,13 +1,28 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import Navbar from './Navbar'
+// import GitIssue from './GitIssue.jsx';
+import AppRoutes from './routes';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h3>Task</h3>
-      </header>
-    </div>
+    <>
+
+        <>
+          <Navbar />
+          <BrowserRouter>
+    
+          <AppRoutes/>
+      
+          
+          </BrowserRouter>
+          {/* <GitIssue /> */}
+        </>
+    
+
+    </>
   );
 }
 
