@@ -17,7 +17,7 @@ const  NavBar=()=> {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-              GitHub Issues
+              Task
             {/* <MenuIcon /> */}
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
